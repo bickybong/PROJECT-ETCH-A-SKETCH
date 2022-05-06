@@ -1,8 +1,18 @@
+body{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  background-color: honeydew;
+  padding: 10px;
+}
+
 button{
   padding: 30px;
   border-radius: 50%;
   color: saddlebrown;
   background-color: beige;
+  margin: 3px;
 }
 
 .grid{

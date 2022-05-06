@@ -56,9 +56,7 @@ const reset = document.querySelector("#reset");
 reset.addEventListener("click", () => {
     clearGrid();
     makeGrid(sizeNo);
-})
-
-//reset grid to white button
+})//reset grid to white button
 
 const black = document.querySelector("#black");
 black.addEventListener("click", e => color = "black" );
